@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <!-- <meta favicon="/Users/macfat/Downloads/favicon.ico"> -->
     <!-- I do not understand how to create favicon -->
     <!-- <meta> -->
@@ -25,10 +26,13 @@
             font-style:initial  ;
 
         }
+        .m:hover {
+            align-items:top;
+        }
         .h1 {
-            text-underline-position: auto ; 
+            text-underline-position: below ; 
             font-style:initial  ;
-            font-size: large;
+            font-size: large;  
         }
         .h2 {
             opacity:0.5;
@@ -45,11 +49,12 @@
         }
         input.a:hover {
             border: solid ;
-            border-color: crimson;
+            border-color: blue;
             border-width: 2px;
             border-radius: 5px;
 
         }
+        
         input.b:hover {
             border: solid ;
             border-color: green;
@@ -82,11 +87,17 @@
             /* text-underline-position: calc(); */
             /* I do not understand this property */
         }
+        .png:hover {
+            font-size: large;
+            background-color: black;
+            border: 4px solid rgb(252, 19, 2);
+
+        }
     </style>
 
 </head>
 <body>
-    <div class="pop">
+    <div class="pop m">
     <div>
        <h2 class="h1">&ensp;&ensp; Registration&nbsp;</h2>
     </div>
@@ -99,22 +110,23 @@
             <div>    
             &ensp;&ensp;&ensp;<label for="Full name">Full Name </label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
             <label for="Date of Birth">Date of Birth</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;
-            <label for="E-mail">Email</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <label for="email">Email</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
             </div><br>
             <div>
-                &ensp;&ensp;&ensp;<input class="mop a" type="text" id="Full name" name="Full Name" placeholder="Enter your name">&ensp;&ensp;
-                <input class="mop a" type="text" id="Date of Birth" name="Date of Birth" placeholder="Enter birth date">&ensp;&ensp;&ensp;&ensp;
-                <input class="mop a" type="email" id="email" name="email" placeholder="Enter your email">
+                &ensp;&ensp;&ensp;
+                <input class="mop a" type="text"  name="Full Name" placeholder="Enter your name">&ensp;&ensp;
+                <input class="mop a" type="text"  name="Date of Birth" placeholder="Enter birth date">&ensp;&ensp;&ensp;&ensp;
+                <input class="mop a" type="email"  name="email" placeholder="Enter your email">
             </div><br>
             <div>
                 &ensp;&ensp;&ensp;<label for="mobile number">Mobile Number</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                <label for="Gander">Gander</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;
+                <label for="Gender">Gander</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&ensp;&ensp;&ensp;
                 <label for="Occupation">Occupation</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
             </div><br>
             <div>
-                &ensp;&ensp;&ensp;<input class="mop a" type="number" id="Mobile Number" name="Mobile Number" placeholder="Enter mobile number">&ensp;&ensp;
-                <input class="mop a" type="gender" id="Gender" name="Gender" placeholder="Enter your gender">&ensp;&ensp;&ensp;&ensp;
-                <input class="mop a" type="text" id="Occupation" name="Occupation" placeholder="Enter occupation">
+                &ensp;&ensp;&ensp;<input class="mop a" type="number"  name="Mobile Number" placeholder="Enter mobile number">&ensp;&ensp;
+                <input class="mop a" type="gender"  name="Gender" placeholder="Enter your gender">&ensp;&ensp;&ensp;&ensp;
+                <input class="mop a" type="text"  name="Occupation" placeholder="Enter occupation">
             </div><br>
         <div> 
             <h3 class="h2">&ensp;&ensp; Identity&nbsp;Details</h3>
@@ -125,9 +137,9 @@
                 <label for="Issue Authority">Issue Authority</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
             </div><br>
             <div>
-                &ensp;&ensp;&ensp;<input class="mop b" type="text" id="ID Type" name="ID Type" placeholder="Enter ID Type">&ensp;&ensp;
-                <input class="mop b" type="number" id="ID Number" name="ID Number" placeholder="Enter ID Number">&ensp;&ensp;&ensp;&ensp;
-                <input class="mop b" type="text" id="Issue Authority" name="Issue Authority" placeholder="Enter Issue department">
+                &ensp;&ensp;&ensp;<input class="mop b" type="text"  name="ID Type" placeholder="Enter ID Type">&ensp;&ensp;
+                <input class="mop b" type="number"  name="ID Number" placeholder="Enter ID Number">&ensp;&ensp;&ensp;&ensp;
+                <input class="mop b" type="text"  name="Issue Authority" placeholder="Enter Issue department">
             </div><br>
             <div>
                 &ensp;&ensp;&ensp;<label for="Issue Date">Issue Date</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
@@ -135,12 +147,12 @@
                 <label for="Expiry Date">Expiry Date</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
             </div><br>
             <div>
-                &ensp;&ensp;&ensp;<input class="mop b" type="text" id="Issue Date" name="Issue Date" placeholder="Enter ID Issue Date">&ensp;&ensp;
-                <input class="mop b" type="text" id="Issue State" name="Issue State" placeholder="Enter ID Issue State ">&ensp;&ensp;&ensp;&ensp;
-                <input class="mop b" type="text" id="Expiry Date" name="Expiry Date" placeholder="Enter ID Expiry Date">
+                &ensp;&ensp;&ensp;<input class="mop b" type="text"  name="Issue Date" placeholder="Enter ID Issue Date">&ensp;&ensp;
+                <input class="mop b" type="text"  name="Issue State" placeholder="Enter ID Issue State ">&ensp;&ensp;&ensp;&ensp;
+                <input class="mop b" type="text"  name="Expiry Date" placeholder="Enter ID Expiry Date">
             </div><br>
             <div>
-                &ensp;&ensp;&ensp;<a href="https://amphersoft.com" target="_blank"><input class="job" type="submit" name="Next ->" value="Next - - ->"></submit></a><br><br>
+                &ensp;&ensp;&ensp;<a href="https://amphersoft.com" target="_blank"><input class="job png" type="submit" name="Next ->" value="Next - - ->"></submit></a><br><br>
             </div>
             <div>
             </div>
