@@ -3,35 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS</title>
+  <title>CSS FORM TEST</title>
   <STYle>
+    body {
+      background-color: blueviolet;
+    }
     .a {
-      text-align: center;
-      font-weight: bold;
-      font-family: 'Courier New', Courier, monospace;
-      font-style: italic;
-      font-size: large;
-      text-decoration: underline;
-      text-transform: capitalize;
-      text-overflow: calc();
-      text-shadow: 3px;
-      text-indent: 1%;
-      font-display: nav;
-      border-style: solid;
-      background-color: royalblue;
-      border-radius: 6px;
+      margin-right: 30%;
+      margin-left: 30%;
+      background-color: rgba(227, 129, 59, 0.5);
+      color: azure;
+      border-style: groove;
+      border-radius: 10px;
       border-color: black;
-      text-decoration-line: overline;
+      padding-left: 20px;
+      font-size: small;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .b {
+      font-weight: bold;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 19px;
+      font-size: 24px;
 
     }
+    input {
+      border: 2px black groove;
+      border-radius: 8px;
+      background-color: rgba(0, 43, 226, 0.482);
+      padding-top: 10px;
+      padding-right: 230px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      margin-right: 10px;
+      margin-top: 5px;
+      color: azure;
+      width: 35%;
+    }
+    textarea {
+      background-color:rgba(0, 43, 226, 0.482);
+      border: 2px black groove;
+      border-radius: 8px;
+      padding-top: 10px;
+      padding-right: 200px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      margin-right: 10px;
+      margin-top: 5px;
+      height:50px;
+    }
+    /* .dog-input {
+      width: 35%;
+    } */
+    
   </STYle>
 </head>
-<body> <h1 class="a">
-  OUR SERVICES 
-</h1>
-  <P >
-    1. COUNTARY 
-  </P>
+<body> 
+  <div class="a">
+    <div>
+      <h3 class="b">User Registration Form </h3>
+    </div>
+    <div>
+      <form>
+        <div>
+        <div>
+          <label for="fname">Full Name*</label><br>
+          <input type="text" name="Full Name" placeholder="Enter your full name"><br>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email Address*</label> <br>
+          <input type="email" placeholder="Enter your email"><br>
+        </div>
+        <br>
+        <div>
+          <label for="Password">Password*</label><br>
+          <input  type="password"  placeholder="Enter a strong password"><br>
+        </div>
+        <br>
+        <div>
+          <label for="Date of birth">Date of Birth*</label><br>
+          <input class="dog-input" type="date" placeholder="dd/mm/yyyy"><br>
+        </div>
+        <br>
+        <div>
+          <label for="gender">Gender*</label><br>
+          
+          <input type="radio" name="gender">
+          <label for="male">Male</label>&ensp;
+          
+          <input type="radio" name="gender">
+          <label for="female">Female</label>&ensp;
+          
+          <input type="radio" name="gender">
+          <label for="other">Other</label>&ensp;
+        </div>
+        <br>
+        <div>
+          <label for="country">Country*</label>
+          <input type="text" placeholder="Select a Country"><br>
+        </div>
+        <br>
+          <label for="skills">Skills</label><br>
+
+          <input type="checkbox" name="HTML">
+          <label for="html">HTML</label>&ensp;
+
+          <input type="checkbox" name="CSS">
+          <label for="css">CSS</label>&ensp;
+
+          <input type="checkbox" name="JavaScript">
+          <label for="javascript">JavaScript</label>&ensp;
+
+          <input type="checkbox" name="React">
+          <label for="react">React</label>&ensp;
+
+        </div> 
+        <br>
+        <div>
+          <label for="short bio">Short Bio</label><br>
+          <textarea name="Short Bio" id="" placeholder="Tell us something about yourself..."></textarea>
+        </div> 
+      </form>
+    </div>
+  </div>
 
 </body>
 </html>
