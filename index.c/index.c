@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 void main ()
 {
-    printf("my page of C");
+    int age =20;
+    printf("my age is %i",age);
     getch();
 }
