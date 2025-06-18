@@ -7,10 +7,6 @@ header{
     background-color: black;
     font-family: "Lato", sans-serif;
 }
-
-.container{
-    min-height: calc( 100vh - 8vh - 12vh );
-}
 nav ul li {
     list-style: none;
     padding: 0 23px;

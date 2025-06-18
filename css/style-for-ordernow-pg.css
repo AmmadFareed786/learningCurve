@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    z-index: 2;
+}
+.img{
+    width:100vw;
+    height: 50vh;
+    position: relative;
+    color: white;
+    z-index: -3;
+}
+.over{
+    position: absolute;
+    font-size: x-large;
+    color: #ffffff;
+}
+.h2{
+    font-family: "Lato", sans-serif;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* for div behind form  */
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+main{
+    height: 130vh;
+    min-height: 130vh;
+    overflow: visible;
+}
+.div-size{
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    box-shadow:0px 5px 15px  rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;/* for input fields  */
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.size{
+    font-size: xxx-large;
+}
+.fname{
+    width: 30vw;
+    height: 7vh;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+}
+.fname:focus{
+    background-color: white;
+    border: 1px solid black;
+}
+.fname:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.email{
+    width: 30vw;
+    height: 7vh;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+}
+.phone-no{
+    width: 30vw;
+    height: 7vh;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+}
+.email:focus{
+    background-color: white;
+    border: 1px solid black;
+}
+.phone-no:focus{
+    background-color: white;
+    border: 1px solid black;
+}
+.email:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.phone-no:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.country{
+    max-width: 30.8vw;
+    width: 30.8vw;
+    height: 7vh;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+}
+.country:hover{
+    background-color: white;
+    border: 1px solid black;
+} 
+.address{
+    width: 62.5vw;
+    max-width: 62.5vw;
+    height: 7vh;
+    margin: 5px 0px 20px 0px;
+    padding: 0px 0px 0px 10px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+    min-width: 30vw;
+}
+.address:focus{
+    background-color: white;
+    border: 1px solid black;
+}
+.address:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.payment-method-1{
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.payment-method{
+    font-family: "Lato", sans-serif;
+    font-size: x-large;
+    /* margin: 10px 0px 30px 0px; */
+}
+.btn{
+    max-width: 15vw;
+    width: 15vw;
+    height: 7vh;
+    margin: 5px 10px 20px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(212, 208, 208);
+    border: 1px hidden black;
+    font-size: medium;
+}
+.btn:hover{
+    background-color:white ;
+    border: 1px solid black;
+    color: black;
+} 
+* {
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: black;
+    font-family: "Lato", sans-serif;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    height: 8vh;
+    min-height: 8vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search input{
+    width: 20vw;
+    height: 4vh;
+    padding: 2px 14px;
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    display: flex;
+}
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+}
+.all-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+ }
+ .search{
+    display: flex;
+    align-items: center;
+}
+.img-radius{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.input-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.input-5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
