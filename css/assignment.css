@@ -228,3 +228,82 @@ a.underline5 {
     flex-direction: row;
     flex-wrap: wrap;
  }
+ .small-img{
+    width: 5vw;
+    height: 8vh;
+    padding: 14px 10px 14px 0px;
+ }
+ .black-p{
+
+    color: black;
+    font-size: x-small;
+    margin-right: 15px;
+    padding: 21px 0px 20px 5px;
+ }
+ footer{
+    background-color: #DDDAC7;
+    height: 20.4vh;
+    position: relative;
+    margin-top: 1155px;
+ }
+ .footer{
+    background-color: #8B7F69;
+    color: white;
+    margin: 0px 44px;
+    position: absolute;
+    top: 165%;
+    z-index: 2;
+    height: 28.7vh;
+    width: 94vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px none #2D4970 ;
+    border-top-right-radius: 50% 30%;
+    border-top-left-radius: 50% 30%;
+ }
+ .h3{
+    margin: 60px 0px 10px 60px ;
+    font-size: medium;
+ }
+ .paragraph{
+    padding: 5px 0px 10px 60px;
+    font-size: small;
+ }
+ .under-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 0;
+ }
+.h4{
+    margin: 60px 0px 10px 70px ;
+    font-size: medium;
+ }
+ .name{
+    padding: 3px 0px 4px 3px;
+    width: 13vw;
+    margin: 10px 0px 10px 70px;
+    background-color: #2C2825;
+ }
+ .email{
+    padding: 3px 0px 4px 3px;
+    width: 13vw;
+    margin: 0px 0px 10px 70px;
+    background-color: #2C2825;
+ }
+ .button{
+    padding: 3px 0px 4px 3px;
+    width: 7vw;
+    margin: 0px 0px 10px 162px;
+    background-color: #E1BE01;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .align{
+    font-size: x-small;
+    position: absolute;
+    top: 191%;
+    z-index: 2;
+    margin-left: 100px;
+ }
