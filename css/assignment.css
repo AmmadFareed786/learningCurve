@@ -37,7 +37,7 @@ img{
 nav ul {
     display: flex;
     flex-direction: row;
-    margin: 70px 0 0 650px;
+    margin: 70px 0 0 790px;
     height: 10vh;
 }
 header{
@@ -102,19 +102,19 @@ a.underline5 {
     border-bottom-left-radius: 50% 30%;
     border-bottom-right-radius: 50% 30%;
     position: absolute;
-    top: 67%;
+    top: 63%;
     z-index: -1;
  }
  .img{
     z-index: 2;
     background-color: rgba(19, 18, 18, 0.552);
     width: 30vw;
-    height: 42.2vh;
+    height: 42.9vh;
     position: absolute;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 90% 30%;
     padding: 30px 10px 20px 20px;
-    top: 67%;
+    top: 63%;
     font-family: "Playfair Display", serif !important;
  }
  .btn{
@@ -136,8 +136,8 @@ a.underline5 {
     padding: 15px 20px;
     position: relative;
     z-index: 2;
-    margin: 30px 20px 20px -10px;
-    width: 16.5vw;
+    margin: 50px 20px 20px -40px;
+    width: 21.5vw;
  }
  .bg1{
     color: #F7F5E9;
@@ -145,8 +145,8 @@ a.underline5 {
     padding: 15px 20px;
     position: relative;
     z-index: 2;
-    margin: 30px 20px 20px -10px;
-    width: 16.5vw;
+    margin: 50px 20px 20px -40px;
+    width: 21.5vw;
  }
  .bg2{
     color: #F7F5E9;
@@ -154,8 +154,8 @@ a.underline5 {
     padding: 15px 20px;
     position: relative;
     z-index: 2;
-    margin: 30px 20px 20px -10px;
-    width: 16.5vw;
+    margin: 50px 20px 20px -40px;
+    width: 21.5vw;
  }
  .information1{
     background-color: azure;
@@ -167,14 +167,14 @@ a.underline5 {
     position: absolute; 
     z-index: 1;
     top: 72%;
-    left: 7%;
-    width: 20%;
+    left: 5%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
  }
  .size{
-    width: 17vw;
+    width: 21vw;
     padding-left: 20px;
     padding-bottom: 20px;
  }
@@ -189,12 +189,13 @@ a.underline5 {
     border: 1px none black;
     border-radius: 20px;
     padding: 3px 10px;
-    margin-left: 180px ;
+    margin-left: 290px ;
     margin-bottom: 20px;
  }
  hr{
     width: 60%;
     margin: 0px auto 20px; 
+    height: 0.0000000001px;
  }
  .information2{
     background-color: azure;
@@ -206,11 +207,12 @@ a.underline5 {
     position: absolute; 
     z-index: 1;
     top: 72%;
-    left: 41%;
-    width: 20%;
+    left: 37%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 89vh;
  }
  .information3{
     background-color: azure;
@@ -222,8 +224,8 @@ a.underline5 {
     position: absolute; 
     z-index: 1;
     top: 72%;
-    left: 75%;
-    width: 20%;
+    left: 70%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -244,14 +246,14 @@ a.underline5 {
     background-color: #DDDAC7;
     height: 20.4vh;
     position: relative;
-    margin-top: 1155px;
+    margin-top: 1279px;
  }
  .footer{
-    background-color: #8B7F69;
+    background-image:linear-gradient(to right , #897D66 , #807562 ) ;
     color: white;
     margin: 0px 44px;
     position: absolute;
-    top: 165%;
+    top: 164%;
     z-index: 2;
     height: 28.7vh;
     width: 94vw;
@@ -263,11 +265,11 @@ a.underline5 {
     border-top-left-radius: 50% 30%;
  }
  .h3{
-    margin: 60px 0px 10px 60px ;
+    margin: 60px 0px 10px 100px ;
     font-size: medium;
  }
  .paragraph{
-    padding: 5px 0px 10px 60px;
+    padding: 5px 0px 10px 100px;
     font-size: small;
  }
  .under-footer{
@@ -276,25 +278,25 @@ a.underline5 {
     margin: 0 30px 0 0;
  }
 .h4{
-    margin: 60px 0px 10px 70px ;
+    margin: 60px 0px 10px 90px ;
     font-size: medium;
  }
  .name{
     padding: 3px 0px 4px 3px;
     width: 13vw;
-    margin: 10px 0px 10px 70px;
+    margin: 10px 0px 10px 90px;
     background-color: #2C2825;
  }
  .email{
     padding: 3px 0px 4px 3px;
     width: 13vw;
-    margin: 0px 0px 10px 70px;
+    margin: 0px 0px 10px 90px;
     background-color: #2C2825;
  }
  .button{
     padding: 3px 0px 4px 3px;
     width: 7vw;
-    margin: 0px 0px 10px 162px;
+    margin: 0px 0px 10px 192px;
     background-color: #E1BE01;
     border: none;
     border-radius: 3px;
