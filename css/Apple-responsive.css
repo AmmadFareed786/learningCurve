@@ -1,0 +1,33 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .iphone-16-family::before {
+    background-image: url("../img/iphone-16.jpg");
+  }
+}
+@media (max-width: 767px) {
+  .iphone-16-family::before {
+    background-image: url("../img/iphone-16-phone-size.jpg");
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .btn1, .btn2 {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .gradient {
+    font-size: 16px;
+  }
+
+  .iphone-16-family {
+    padding: 0 10px;
+  }
+}
+
+
