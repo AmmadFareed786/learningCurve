@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS FORM TEST</title>
+  <STYle>
+    body {
+      background: linear-gradient(135deg, #667EEA, #764BA2)
+
+
+    }
+    .a {
+      margin-right: 30%;
+      margin-left: 30%;
+      background-color: #c2b1d4;
+      color: azure;
+      border-style: groove;
+      border-radius: 15px;
+      border-color: black;
+      padding-left: 20px;
+      font-size: small;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .b {
+      font-weight: bold;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 19px;
+      font-size: 24px;
+
+    }
+    input {
+      border: 2px black groove;
+      border-radius: 8px;
+      background-color: #8d60ba;
+      padding-top: 10px;
+      padding-right: 230px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      margin-right: 10px;
+      margin-top: 5px;
+      color: black ;
+      cursor: pointer;
+      z-index: 1;
+    }
+    textarea {
+      background-color:#7c4ba5;
+      border: 2px black groove;
+      border-radius: 8px;
+      padding-top: 10px;
+      padding-right: 200px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      margin-right: 10px;
+      margin-top: 5px;
+      height:50px;
+      cursor: pointer;
+
+    }
+   .dog-input { 
+      width: 90%;
+      padding-right: 0;
+    } 
+    .section {
+      border: 2px black groove;
+      border-radius: 8px;
+      background-color: #9264c3;
+      padding-top: 10px;
+      padding-right: 260px;
+      padding-bottom: 7px;
+      padding-left: 15px;
+      margin-right: 5px;
+      margin-top: 5px;
+      color: azure;
+      cursor: pointer;
+    }
+    .pop {
+      padding-right:20px ;
+      margin-left: 150px;
+      background: linear-gradient(to right, #6A11CB, #2575FC)
+    }
+    .pop:hover {
+      background: linear-gradient(to right, #2575FC, #6A11CB);
+    }
+    .space {
+      margin-left: 185px;
+    }
+  </STYle>
+</head>
+<body> 
+  <div class="a">
+    <div>
+      <h3 class="b">User Registration Form </h3>
+    </div>
+    <div>
+      <form>
+        <div>
+        <div>
+          <label for="fname">Full Name*</label><br>
+          <input style="color: rgb(21, 22, 22);" type="text" name="Full Name" placeholder="Enter your full name"><br>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email Address*</label> <br>
+          <input type="email" placeholder="Enter your email"><br>
+        </div>
+        <br>
+        <div>
+          <label for="Password">Password*</label><br>
+          <input  type="password"  placeholder="Enter a strong password"><br>
+        </div>
+        <br>
+        <div>
+          <label for="dob">Date of Birth*</label><br>
+          <input class="dog-input" type="date" placeholder="dd/mm/yyyy"><br>
+        </div>
+        <br>
+        <div>
+          <label for="gender">Gender*</label><br>
+          
+          <input type="radio" name="gender">
+          <label for="male">Male</label>&ensp;
+          
+          <input type="radio" name="gender">
+          <label for="female">Female</label>&ensp;
+          
+          <input type="radio" name="gender">
+          <label for="other">Other</label>&ensp;
+        </div>
+        <br>
+        <div>
+          <label for="country">Country*</label><br>
+          <select class="section" name="country" >
+            <option value="select a country" >select a country</option>
+            <option value="Pakistan" >Pakistan</option> 
+            <option value="China" >China</option> 
+            <option value="UAE">UAE</option>  
+            <option value="India">India</option>  
+           </select>
+        </div>
+        <br>
+        <div>
+          <label for="skills">Skills</label><br>
+
+          <input type="checkbox" name="HTML">
+          <label for="html">HTML</label>&ensp;
+
+          <input type="checkbox" name="CSS">
+          <label for="css">CSS</label>&ensp;
+
+          <input type="checkbox" name="JavaScript">
+          <label for="javascript">JavaScript</label>&ensp;
+
+          <input type="checkbox" name="React">
+          <label for="react">React</label>&ensp;
+
+        </div> 
+        <br>
+        <div>
+          <label for="short bio">Short Bio</label><br>
+          <textarea name="Short Bio"  placeholder="Tell us something about yourself..."></textarea>
+        </div> 
+        <br>
+      </div> 
+      <div>
+        <input class="space" type="checkbox" name="I accept the terms and conditions"><br>
+        <label for="I accept the terms and conditions">I accept the terms and conditions*</label>
+      </div>
+      <div>
+          <input class="pop" type="button" value="Register">
+      </div>
+      <br>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Apple" />
+    <meta name="auther" content="Apple" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Apple.css" />
+    <link rel="stylesheet" href="css/Apple-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/Apple-responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="icon" class="favicon" type="image/png" sizes="16x16"
+        href="data:image/png;base64,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" />
+    <title>Apple.com</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand mb-1" href="#">
+                <i class="fa-brands fa-apple" style="color: #000;"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="bs-ul-font-size navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ipad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Iphone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Watch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AirPods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TV & Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entertainment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-magnifying-glass" style="color: #000"></i>
+                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img class="img-shopping-bag pb-1" src="img/Apple-shopping-bag.png"
+                                    alt="shopping bag" />
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><img class="img-logo" src="img/Apple-logo.png" alt="logo" /></li>
+                <li><a href="#Store">Store</a></li>
+                <li><a href="#Store">Mac</a></li>
+                <li><a href="#Store">iPad</a></li>
+                <li><a href="#Store">iPhone</a></li>
+                <li><a href="#Store">Watch</a></li>
+                <li><a href="#Store">Vision</a></li>
+                <li><a href="#Store">AirPods</a></li>
+                <li><a href="#Store">TV & Home</a></li>
+                <li><a href="#Store">Entertainment</a></li>
+                <li><a href="#Store">Accessories</a></li>
+                <li><a href="#Store">Support</a></li>
+                <li>
+                    <a href="#Store"><i class="fa fa-magnifying-glass" style="color: #000"></i></a>
+                </li>
+                <li>
+                    <a href="#Store"><img class="img-shopping-bag" src="img/Apple-shopping-bag.png"
+                            alt="shopping bag" /></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="iphone-16-family">
+        <div class="first-child">
+            <h2 class="heading">iPhone</h2>
+            <p class="paragraph">Meet the iPhone 16 family.</p>
+            <div class="second-child">
+                <input class="btn1" type="button" value="Learn more" />
+                <input class="btn2" type="button" value="Shop iPhone" />
+            </div>
+            <p class="gradient">Built for Apple Intelligence.</p>
+        </div>
+    </div>
+    <div class="ipad-pro">
+        <div class="first-child-ipad">
+            <h2 class="heading-ipad">iPad Pro</h2>
+            <p class="paragraph-ipad">Unbelievably thin. incredibly powerful</p>
+            <div class="second-child-ipad">
+                <input class="btn1-ipad" type="button" value="Learn more" />
+                <input class="btn2-ipad" type="button" value="Buy" />
+            </div>
+            <div class="third-child-ipad">
+                <p class="gradient-ipad">Built for Apple Intelligence.</p>
+            </div>
+        </div>
+    </div>
+    <div class="mac-ipad">
+        <div class="mac">
+            <div class="first-child-mac-ipad">
+                <h2 class="heading-mac-ipad">MacBook Air</h2>
+                <p class="paragraph-mac-ipad">Sky blue color.</p>
+                <p class="paragraph-mac-ipad-1">Sky high performance with M4.</p>
+            </div>
+            <div class="second-child-mac-ipad">
+                <input class="btn1-mac-ipad" type="button" value="Learn more" />
+                <input class="btn2-mac-ipad" type="button" value="Buy" />
+            </div>
+            <div class="third-child-mac-ipad">
+                <p class="gradient-mac-ipad">Built for Apple Intelligence.</p>
+            </div>
+        </div>
+        <div class="ipads">
+            <div class="first-child-mac-ipad-2">
+                <h2 class="heading-mac-ipad-2"></h2>
+                <p class="paragraph-mac-ipad-2">Now supercharged by the M3 chip.</p>
+            </div>
+            <div class="second-child-mac-ipad-2">
+                <input class="btn1-mac-ipad-2" type="button" value="Learn more" />
+                <input class="btn2-mac-ipad-2" type="button" value="Buy" />
+            </div>
+            <div class="third-child-mac-ipad-2">
+                <p class="gradient-mac-ipad-2">Built for Apple Intelligence.</p>
+            </div>
+        </div>
+    </div>
+    <div class="watch-airpods">
+        <div class="watch">
+            <div class="first-child-watch-airpods">
+                <h2 class="heading-watch-airpods"><i class="fa-brands fa-apple" style="color: #000000;"></i> WATCH</h2>
+                <p class="paragraph-watch-airpods">SERIES 10</p>
+                <p class="paragraph-watch-airpods-1">Thinstant classic.</p>
+            </div>
+            <div class="second-child-watch-airpods">
+                <input class="btn1-watch-airpods" type="button" value="Learn more" />
+                <input class="btn2-watch-airpods" type="button" value="Buy" />
+            </div>
+        </div>
+        <div class="airpods">
+            <div class="first-child-watch-airpods-2">
+                <h2 class="heading-watch-airpods-2">AirPods Pro 2</h2>
+                <p class="paragraph-watch-airpods-2">Now with a Hearing Aid features.<sup>2</sup></p>
+            </div>
+            <div class="second-child-watch-airpods-2">
+                <input class="btn1-watch-airpods-2" type="button" value="Learn more" />
+                <input class="btn2-watch-airpods-2" type="button" value="Buy" />
+            </div>
+        </div>
+    </div>
+    <div class="phone-card">
+        <div class="phone">
+            <div class="first-child-phone-card">
+                <h2 class="heading-phone-card"><i class="fa-brands fa-apple" style="color: #000000;"></i> Trade In</h2>
+                <p class="paragraph-phone-card">Get $170-$630 in credit when you</p>
+                <p class="paragraph-phone-card-1">trade in iPhone 12 or higher.<sup>3</sup></p>
+            </div>
+            <div class="second-child-phone-card">
+                <input class="btn1-phone-card" type="button" value="Get your estimate" />
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="first-child-phone-card-2">
+                <h2 class="heading-phone-card-2"><i class="fa-brands fa-apple" style="color: #000000;"></i> Card</h2>
+                <p class="paragraph-phone-card-2">Get up to 3% Daily Cash back</p>
+                <p class="paragraph-phone-card-2-1">with every purchase.</p>
+            </div>
+            <div class="second-child-phone-card-2">
+                <input class="btn1-phone-card-2" type="button" value="Learn more" />
+                <input class="btn2-phone-card-2" type="button" value="Apply now" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="slide-container">
+            <div class="slide-image-1">
+                <div class="data-under-slide-1">
+                    <p class="p-under-slide-1">Balatro+</p>
+                    <p class="p2-under-slide-1"><i class="fa-brands fa-apple" style="color: #fff;"></i> Arcade</p>
+                </div>
+                <div class="button-overlay-1">
+                    <button class="hover-button-1">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-2">
+                <div class="data-under-slide-2">
+                    <p class="p-under-slide-2">Strong and Calm Combos for Busy Days</p>
+                    <p class="p2-under-slide-2"><i class="fa-brands fa-apple" style="color: #fff;"></i> Fitness+</p>
+                </div>
+                <div class="button-overlay-2">
+                    <button class="hover-button-2">Watch now</button>
+                </div>
+            </div>
+            <div class="slide-image-3">
+                <div class="parent-img-3">
+                    <div class="img-contain-3"></div>
+                    <div class="data-under-slide-3">
+                        <p class="p-under-slide-3">Seth Rogen: The Zane Lowe Interview</p>
+                        <p class="p2-under-slide-3"><i class="fa-brands fa-apple" style="color: #fff;"></i> Music</p>
+                    </div>
+                </div>
+                <div class="button-overlay-3">
+                    <button class="hover-button-3">Listen now</button>
+                </div>
+            </div>
+            <div class="slide-image-4">
+                <div class="data-under-slide-4">
+                    <p class="p-under-slide-4">PGA TOUR Pro Golf</p>
+                    <p class="p2-under-slide-4"><i class="fa-brands fa-apple" style="color: #fff;"></i> Arcade</p>
+                </div>
+                <div class="button-overlay-4">
+                    <button class="hover-button-4">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-5">
+                <div class="data-under-slide-5">
+                    <p class="p-under-slide-5">Strength and Gregg</p>
+                    <p class="p2-under-slide-5"><i class="fa-brands fa-apple" style="color: #fff;"></i> Fitness+</p>
+                </div>
+                <div class="button-overlay-5">
+                    <button class="hover-button-5">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-6">
+                <div class="parent-img-6">
+                    <div class="img-contain-6"></div>
+                    <div class="data-under-slide-6">
+                        <p class="p-under-slide-6">A-List Pop</p>
+                        <p class="p2-under-slide-6"><i class="fa-brands fa-apple" style="color: #000;"></i> Music</p>
+                    </div>
+                </div>
+                <div class="button-overlay-6">
+                    <button class="hover-button-6">Listen now</button>
+                </div>
+            </div>
+            <div class="slide-image-1">
+                <div class="data-under-slide-1">
+                    <p class="p-under-slide-1">Balatro+</p>
+                    <p class="p2-under-slide-1"><i class="fa-brands fa-apple" style="color: #fff;"></i> Arcade</p>
+                </div>
+                <div class="button-overlay-1">
+                    <button class="hover-button-1">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-2">
+                <div class="data-under-slide-2">
+                    <p class="p-under-slide-2">Strong and Calm Combos for Busy Days</p>
+                    <p class="p2-under-slide-2"><i class="fa-brands fa-apple" style="color: #fff;"></i> Fitness+</p>
+                </div>
+                <div class="button-overlay-2">
+                    <button class="hover-button-2">Watch now</button>
+                </div>
+            </div>
+            <div class="slide-image-3">
+                <div class="parent-img-3">
+                    <div class="img-contain-3"></div>
+                    <div class="data-under-slide-3">
+                        <p class="p-under-slide-3">Seth Rogen: The Zane Lowe Interview</p>
+                        <p class="p2-under-slide-3"><i class="fa-brands fa-apple" style="color: #fff;"></i> Music</p>
+                    </div>
+                </div>
+                <div class="button-overlay-3">
+                    <button class="hover-button-3">Listen now</button>
+                </div>
+            </div>
+            <div class="slide-image-4">
+                <div class="data-under-slide-4">
+                    <p class="p-under-slide-4">PGA TOUR Pro Golf</p>
+                    <p class="p2-under-slide-4"><i class="fa-brands fa-apple" style="color: #fff;"></i> Arcade</p>
+                </div>
+                <div class="button-overlay-4">
+                    <button class="hover-button-4">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-5">
+                <div class="data-under-slide-5">
+                    <p class="p-under-slide-5">Strength and Gregg</p>
+                    <p class="p2-under-slide-5"><i class="fa-brands fa-apple" style="color: #fff;"></i> Fitness+</p>
+                </div>
+                <div class="button-overlay-5">
+                    <button class="hover-button-5">Play now</button>
+                </div>
+            </div>
+            <div class="slide-image-6">
+                <div class="parent-img-6">
+                    <div class="img-contain-6"></div>
+                    <div class="data-under-slide-6">
+                        <p class="p-under-slide-6">A-List Pop</p>
+                        <p class="p2-under-slide-6"><i class="fa-brands fa-apple" style="color: #000;"></i> Music</p>
+                    </div>
+                </div>
+                <div class="button-overlay-6">
+                    <button class="hover-button-6">Listen now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="long-text">
+            <p class="first">1. Available for Qualified Purchasers only. Qualified Purchasers purchasing an eligible
+                Mac/iPad (“Eligible Product”) with eligible AirPods/accessory (“Promotion Product”) from a Qualifying
+                Location through September 30, 2025 will receive Promotion Savings (up to $199, not to exceed the price
+                of the Promotion Product). Customers will be charged for all items in their cart, including the
+                Promotion Product. Only one Promotion Product per Eligible Product per Qualified Purchaser. Offer
+                subject to availability. While supplies last. Additional restrictions apply. View full offer terms <a
+                    href="#apple" class="link-in-text-1">here</a></p>
+            <p class="second">2. Hearing Aid and Hearing Test: The Hearing Aid feature has received FDA authorization.
+                The Hearing Test and Hearing Aid features are supported on AirPods Pro 2 with the latest firmware paired
+                with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years
+                old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and
+                later. It is intended for people with perceived mild to moderate hearing loss.</p>
+            <p class="second">Hearing Protection: The Hearing Protection feature works with AirPods Pro 2 with the
+                latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS
+                Sequoia and later. Feature is only available in the U.S. and Canada. See <a href="#apple"
+                    class="link-in-text-1">support.apple.com/120850</a> for
+                total attenuation and more information. The Hearing Protection feature is not suitable for protection
+                against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained
+                sounds louder than 110 dBA.</p>
+            <p class="second">3. Trade‑in values will vary based on the condition, year, and configuration of your
+                eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of
+                majority to be eligible to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied
+                toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on
+                receipt of a qualifying device matching the description provided when estimate was made. Sales tax may
+                be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of a valid
+                photo ID (local law may require saving this information). Offer may not be available in all stores, and
+                may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or
+                its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction
+                for any reason. More details are available from Apple’s trade-in partner for trade‑in and recycling of
+                eligible devices. Restrictions and limitations may apply.</p>
+            <p class="second">To access and use all Apple Card features and products available only to Apple Card users,
+                you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS
+                or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the
+                United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</p>
+            <p class="second">Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman
+                Sachs Bank USA for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC
+                is a bank.</p>
+            <p class="second">If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with
+                questions about Apple Card.</p>
+            <p class="second">Learn more about how Apple Card applications are evaluated at <a href="#apple"
+                    class="link-in-text-1">support.apple.com/kb/HT209218.</a></p>
+            <p class="second">Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15
+                Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language
+                set to the same supported language, as part of an iOS 18, iPadOS 18, and macOS Sequoia software update.
+                Supported languages include English, French, German, Italian, Portuguese (Brazil), Spanish, Japanese,
+                Korean, and Chinese (Simplified). More languages are coming over the course of the year, including
+                Vietnamese. Some features may not be available in all regions or languages.</p>
+            <p class="second">
+                A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.</p>
+            <p class="second">
+                Features are subject to change. Some features, applications, and services may not be available in all
+                regions or all languages.</p>
+        </div>
+        <hr class="hr">
+        <div class="links">
+            <div class="first-row">
+                <p class="p">Shop and Learn</p>
+                <a href="#" class="a">Store</a>
+                <a href="#" class="a">Mac</a>
+                <a href="#" class="a">iPad</a>
+                <a href="#" class="a">iPhone</a>
+                <a href="#" class="a">Watch</a>
+                <a href="#" class="a">Vision</a>
+                <a href="#" class="a">AirPods</a>
+                <a href="#" class="a">TV & Home</a>
+                <a href="#" class="a">AirTag</a>
+                <a href="#" class="a">Accessories</a>
+                <a href="#" class="a">Gift Cards</a>
+                <p class="p2">Apple Wallet</p>
+                <a href="#" class="a">Wallet</a>
+                <a href="#" class="a">Apple Card</a>
+                <a href="#" class="a">Apple Pay</a>
+                <a href="#" class="a">Apple Cash</a><br>
+            </div>
+            <div class="second-row">
+                <p class="p">Account</p>
+                <a href="#" class="a">Manage Your Apple Account</a>
+                <a href="#" class="a">Apple Store Account</a>
+                <a href="#" class="a">iCloud.com</a>
+                <p class="p2">Entertainment</p>
+                <a href="#" class="a">Apple One</a>
+                <a href="#" class="a">Apple TV+</a>
+                <a href="#" class="a">Apple Music</a>
+                <a href="#" class="a">Apple Arcade</a>
+                <a href="#" class="a">Apple Fitness+</a>
+                <a href="#" class="a">Apple News+</a>
+                <a href="#" class="a">Apple Podcasts</a>
+                <a href="#" class="a">Apple Books</a>
+                <a href="#" class="a">App Store</a><br>
+            </div>
+            <div class="second-row">
+                <p class="p">Apple Store</p>
+                <a href="#" class="a">Find a Store</a>
+                <a href="#" class="a">Genius Bar</a>
+                <a href="#" class="a">Today at Apple</a>
+                <a href="#" class="a">Group Reservations</a>
+                <a href="#" class="a">Apple Camp</a>
+                <a href="#" class="a">Apple Store App</a>
+                <a href="#" class="a">Certified Refurbished</a>
+                <a href="#" class="a">Apple Trade In</a>
+                <a href="#" class="a">Financing</a>
+                <a href="#" class="a">Carrier Deals at Apple</a>
+                <a href="#" class="a">Order Status</a>
+                <a href="#" class="a">Shopping Help</a><br>
+            </div>
+            <div class="second-row">
+                <p class="p">For Business</p>
+                <a href="#" class="a">Apple and Business</a>
+                <a href="#" class="a">Shop for Business</a>
+                <p class="p2">For Education</p>
+                <a href="#" class="a">Apple and Education</a>
+                <a href="#" class="a">Shop for K-12</a>
+                <a href="#" class="a">Shop for College</a>
+                <p class="p2">For Healthcare</p>
+                <a href="#" class="a">Apple in Healthcare</a>
+                <a href="#" class="a">Mac in Healthcare</a>
+                <a href="#" class="a">Health on Apple Watch</a>
+                <a href="#" class="a">Health Records on iPhone and <br>iPad</a>
+                <p class="p2">For Government</p>
+                <a href="#" class="a">Shop for Government</a>
+                <a href="#" class="a">Shop for Veterans and Military</a><br>
+            </div>
+            <div class="second-row">
+                <p class="p">Apple Values</p>
+                <a href="#" class="a">Accessibility</a>
+                <a href="#" class="a">Education</a>
+                <a href="#" class="a">Environment</a>
+                <a href="#" class="a">Inclusion and Diversity</a>
+                <a href="#" class="a">Privacy</a>
+                <a href="#" class="a">Racial Equity and Justice</a>
+                <a href="#" class="a">Supply Chain Innovation</a>
+                <p class="p2">About Apple</p>
+                <a href="#" class="a">Newsroom</a>
+                <a href="#" class="a">Apple Leadership</a>
+                <a href="#" class="a">Career Opportunities</a>
+                <a href="#" class="a">Investors</a>
+                <a href="#" class="a">Ethics & Compliance</a>
+                <a href="#" class="a">Events</a>
+                <a href="#" class="a">Contact Apple</a><br>
+            </div>
+        </div>
+        <div class="alone-text">
+            <p class="link-p">More ways to shop: <a class="link-color" href="#">Find an Apple Store</a> or <a
+                    class="link-color" href="#">other retailer</a>
+                near you. Or call <a class="link-color" href="#">1-800-MY-APPLE</a> (1-800-692-7753).</p>
+        </div>
+        <hr class="hr">
+        <div class="copyright">
+            <p class="last-p">Copyright &copy; 2025 Apple Inc. All rights reserved.</p>
+            <p class="p-menu"><a href="#" class="last">Privacy Policy</a>&ensp; | &ensp; <a href="#" class="last">Terms
+                    of Use
+                </a>&ensp; | &ensp; <a href="#" class="last">Sales and Refunds</a>&ensp; | &ensp; <a href="#"
+                    class="last">Legal</a>&ensp; | &ensp; <a href="#" class="last">Site Map</a></p>
+            <p class="last-a"><a href="#" class="last-1">United States</a></p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
