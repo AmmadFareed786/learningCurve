@@ -11,8 +11,22 @@
 			"int main(){",
 			"\t$1",
 			"\treturn 0;",
-			"}",
+			"}"
 		],
 		"description": "The C language boilerplate"
+	},
+	"printf shortcut": {
+		"prefix": "pf",
+		"body": [
+			"printf(\"$1\\n\"$2);"
+		],
+		"description": "Shortcut for printf"
+	},
+	"scanf shortcut": {
+		"prefix": "sf",
+		"body": [
+			"scanf(\"%d\", &$1);"
+		],
+		"description": "Shortcut for scanf with int"
 	}
 }
