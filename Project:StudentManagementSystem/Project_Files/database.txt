@@ -1,0 +1,40 @@
+Student Roll Number is 606060
+Student Name is Bareera
+Student Age is 11
+Student Marks is 22%
+
+Student Roll Number is 816333
+Student Name is hafsa
+Student Age is 18
+Student Marks is 93%
+
+Student Roll Number is 608971
+Student Name is mehmood
+Student Age is 16
+Student Marks is 85%
+
+Student Roll Number is 608071
+Student Name is Mehmood Hassan
+Student Age is 16
+Student Marks is 99%
+
+Student Roll Number is 123456
+Student Name is Alex
+Student Age is 33
+Student Marks is 88%
+
+Student Roll Number is 201020
+Student Name is Abdullah
+Student Age is 17
+Student Marks is 88%
+
+Student Roll Number is 612161
+Student Name is Saad
+Student Age is 19
+Student Marks is 66%
+
+Student Roll Number is 432233
+Student Name is Subhe
+Student Age is 22
+Student Marks is 88%
+
