@@ -154,7 +154,7 @@ int main()
             {
                if (strstr(line, s1.roll_no))
                {
-                  printf("Record Found:\n\n`");
+                  printf("Record Found:\n\n");
                   printf("%s", line);
 
                   for (int i = 0; i < 3; i++)
