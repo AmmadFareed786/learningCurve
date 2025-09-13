@@ -11,7 +11,7 @@ Student Marks is 93%
 Student Roll Number is 608071
 Student Name is Mehmood Hassan
 Student Age is 16
-Student Marks is 82%
+Student Marks is 83%
 
 Student Roll Number is 602760
 Student Name is Huraira
