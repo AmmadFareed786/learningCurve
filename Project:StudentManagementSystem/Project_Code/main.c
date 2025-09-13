@@ -357,7 +357,7 @@ int main()
             {
                remove("Project:StudentManagementSystem/Project_Files/database.txt");
                rename("Project:StudentManagementSystem/Project_Files/temp.txt", "Project:StudentManagementSystem/Project_Files/database.txt");
-               printf("Record updated successfully!\n\n");
+               printf("Record deleted successfully!\n\n");
             }
             else
             {
