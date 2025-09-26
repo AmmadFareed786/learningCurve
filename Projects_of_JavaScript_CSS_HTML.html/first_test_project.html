@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(141, 117, 6);
+      }
+
+      * {
+        padding: 20px;
+        margin: 20px;
+        font-style: italic;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        letter-spacing: 1px;
+        color: white;
+        text-shadow: 2px 2px rgb(2, 2, 2);
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      button {
+        background-color: black;
+        border-radius: 40px;
+      }
+
+      span {
+        text-align: center;
+        text-shadow: 2px 2px rgb(141, 117, 6);
+        color: aliceblue;
+        font-size: medium;
+      }
+			.btn{
+				margin-left: 130px;
+			}
+    </style>
+  </head>
+
+  <body>
+    <h2>What Can JavaScript Do ?</h2>
+
+    <p id="demo">JavaScript can change the style of an HTML element .</p>
+
+    <button
+      type="button"
+      onclick="
+    document.getElementById('demo').style.fontSize='35px'
+    document.getElementById('demo').style.textTransform='uppercase'">
+      <span> Click Me! </span>
+    </button>
+
+    <button
+      type="button"
+      onclick="
+    document.getElementById('demo').style.fontSize='20px'
+    document.getElementById('demo').style.textTransform='lowercase'">
+      <span> Click Back! </span>
+    </button>
+
+		<br><br>
+
+		<button class="btn" onclick="checkfunction()">
+			<span>Click Test</span>
+		</button>
+
+		<script>
+			function checkfunction(){
+			const input =  prompt("Enter your name : ")
+			console.log("MY NAME IS "+input)
+			}
+		</script>
+  </body>
+</html>
